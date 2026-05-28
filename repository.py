@@ -1,4 +1,4 @@
-from database import new_session, TaskOrm
+from src.db.database import new_session, TaskOrm
 from schemas import STask, STaskAdd
 from sqlalchemy import select
 
