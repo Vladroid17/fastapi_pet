@@ -2,7 +2,7 @@ from sqlalchemy import ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column
 
 from src.db.database import Base
-from src.models.tasks import TaskSchema
+from src.schemas.tasks import TaskSchema
 
 
 class Tasks(Base):
